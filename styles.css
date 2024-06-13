@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Center the LED strip */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000; 
+}
+
+#led-strip {
+    display: flex;
+    gap: 5px; /* Space between LEDs */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.068); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+/* Style for each LED */
+.led {
+    width: 30px;
+    height: 30px;
+    background-color: #000; /* Default LED color is black (off) */
+    border-radius: 50%; /* Make the LEDs circular */
+
+}
